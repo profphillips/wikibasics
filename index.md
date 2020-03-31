@@ -8,6 +8,8 @@
 
 [emoji cheatsheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
+[Build a home page](https://www.freshtechtips.com/2019/02/create-personal-website-github-pages.html)
+
 # _config.yml
 
 ```
