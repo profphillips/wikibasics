@@ -8,3 +8,13 @@
 
 [emoji cheatsheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
+# my yaml
+
+```
+theme: jekyll-theme-minimal
+permalink: /:categories/:year/:month/:title/
+name: Wiki Guide
+title: null
+github:
+  is_project_page: false
+```
