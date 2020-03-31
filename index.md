@@ -21,6 +21,8 @@ name: Wiki Guide
 title: null
 github:
   is_project_page: false
+plugins:
+  - jemoji
 ```
 
 ## /assets/css/style.scss
