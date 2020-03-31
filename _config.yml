@@ -1,4 +1,5 @@
-theme: jekyll-theme-hacker
+theme: jekyll-theme-minimal
+permalink: /:categories/:year/:month/:title/
 title: Wiki Guide
 description: My Page
 github:
