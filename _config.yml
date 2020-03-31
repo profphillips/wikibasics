@@ -1,5 +1,6 @@
 theme: jekyll-theme-minimal
 permalink: /:categories/:year/:month/:title/
-title: Wiki Guide
+name: Wiki Guide
+title: null
 github:
   is_project_page: false
