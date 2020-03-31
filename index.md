@@ -21,3 +21,13 @@ github:
 
 # /assets/css/style.scss
 
+```
+---
+---
+
+@import "{{ site.theme }}";
+
+header {
+  display: none;
+}
+```
