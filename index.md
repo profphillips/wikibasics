@@ -8,7 +8,7 @@
 
 [emoji cheatsheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
-# my yaml
+# _config.yml
 
 ```
 theme: jekyll-theme-minimal
