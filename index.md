@@ -1,4 +1,6 @@
-# Key Links
+# My Title
+
+## Key Links
 
 [basic writing](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
 
@@ -10,7 +12,7 @@
 
 [Build a home page](https://www.freshtechtips.com/2019/02/create-personal-website-github-pages.html)
 
-# _config.yml
+## _config.yml
 
 ```
 theme: jekyll-theme-minimal
@@ -21,7 +23,7 @@ github:
   is_project_page: false
 ```
 
-# /assets/css/style.scss
+## /assets/css/style.scss
 
 ```
 ---
