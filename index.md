@@ -1,6 +1,6 @@
 # Key Links
 
-https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax
+[basic writing](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
 
 https://guides.github.com/features/mastering-markdown/
 
