@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # My Title 3
 
 ## Key Links
