@@ -47,9 +47,12 @@ Syntax highlighted code block
 
 - Bulleted
 - List
+    - indented
 
 1. Numbered
-2. List
+    1. indented
+    1. indented
+1. List
 
 **Bold** and _Italic_ and `Code` text
 
