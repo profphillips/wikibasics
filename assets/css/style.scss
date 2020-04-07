@@ -1,16 +1,16 @@
 ---
 ---
 
-@import "rouge-base16-dark";
-@import "default_colors";
-
+// @import "rouge-base16-dark";
+// @import "default_colors";
+/*
 //$body-background: $cod-grey !default;
 //$body-background: #eee !default;
-$body-foreground: $gallery !default;
+//$body-foreground: $gallery !default;
 $header: $conifer !default;
 $blockquote-color: $silver-chalice !default;
 $blockquote-border: $dove-grey !default;
-
+*/
 $container-max-width: 1000px;
 
 @mixin media-max-width($max-width) {
@@ -22,9 +22,9 @@ $container-max-width: 1000px;
 body {
   margin: 0;
   padding: 0;
-  background-color: #EEEEff; //$body-background;
+  background-color: #993333; //$body-background;
   //background: $body-background url("../images/bkg.png") 0 0;
-  color: $body-foreground;
+  //color: $body-foreground;
   font-size: 16px;
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
@@ -109,9 +109,9 @@ ul li {
 }
 
 blockquote {
-  color: $blockquote-color;
+  //color: $blockquote-color;
   padding-left: 10px;
-  border-left: 1px dotted $blockquote-border;
+ // border-left: 1px dotted $blockquote-border;
 }
 
 pre {
