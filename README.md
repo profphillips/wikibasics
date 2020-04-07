@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 https://profphillips.github.io/wikibasics/
 
 https://guides.github.com/features/mastering-markdown/
