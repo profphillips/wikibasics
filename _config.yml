@@ -1,4 +1,5 @@
 theme: 
+permalink: 
 name: Wiki Guide
 title: My title is not null
 plugins:
