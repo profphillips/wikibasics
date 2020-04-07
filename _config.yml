@@ -1,4 +1,5 @@
 name: Wiki Guide
+permalink: /:categories/:year/:month/:title/
 title: My title is not null
 plugins:
   - jemoji
