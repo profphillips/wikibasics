@@ -2,9 +2,11 @@
 layout: default
 ---
 
-https://profphillips.github.io/wikibasics/
+(https://profphillips.github.io/wikibasics/)
 
-https://guides.github.com/features/mastering-markdown/
+(https://profphillips.github.io/wikibasics/README/)
+
+[Markdown Guide](https://guides.github.com/features/mastering-markdown/)
 
 ## Welcome to GitHub Pages
 
