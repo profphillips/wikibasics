@@ -1,5 +1,3 @@
-theme: 
-permalink: /:categories/:year/:month/:title/
 name: Wiki Guide
 title: My title is not null
 plugins:
