@@ -2,9 +2,9 @@
 layout: default
 ---
 
-(https://profphillips.github.io/wikibasics/)
+[index](https://profphillips.github.io/wikibasics/)
 
-(https://profphillips.github.io/wikibasics/README/)
+[readme](https://profphillips.github.io/wikibasics/README/)
 
 [Markdown Guide](https://guides.github.com/features/mastering-markdown/)
 
