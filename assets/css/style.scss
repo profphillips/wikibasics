@@ -12,10 +12,11 @@ $header-font-family: '"Arial Black", Arial, Helvetica, Verdana, sans-serif';
 
 $pre-background: #eee;
 $pre-foreground: #000;
-$pre-font-family: '"Courier New", Courier, Terminal, monospace';
+$pre-font-family: 'Terminal, monospace';
 
 $link-color: #3090f0;
 
+$blockquote-color: #0f0;
 
 body {
   margin: 0;
@@ -94,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #999;
   margin: 0 0 5px 0;
 }
-/*
+
 dt {
   font-style: italic;
   font-weight: bold;
@@ -105,11 +106,11 @@ ul li {
 }
 
 blockquote {
-  //color: $blockquote-color;
+  color: $blockquote-color;
   padding-left: 10px;
  // border-left: 1px dotted $blockquote-border;
 }
-*/
+
 pre {
   //background: rgba(0, 0, 0, 0.9);
   background: $pre-background;
@@ -123,7 +124,7 @@ pre {
   overflow: auto;
   overflow-y: hidden;
 }
-/*
+
 code.highlighter-rouge {
   background: rgba(0,0,0,0.9);
   border: 1px solid rgba(255, 255, 255, 0.15);
@@ -132,7 +133,7 @@ code.highlighter-rouge {
   color: #aa759f;
   border-radius: 2px;
 }
-*/
+
 table {
   width: 100%;
   margin: 0 0 20px 0;
@@ -160,11 +161,11 @@ hr {
 
 
 a {
-  //color: $link-color;
+  color: $link-color;
  // color: #63c0f5;
-  //text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
-/*
+
 // Clearfix 
 
 .cf:before, .cf:after {
@@ -183,4 +184,4 @@ a {
 #a-title {
   text-decoration: none;
 }
-*/
+
