@@ -56,7 +56,7 @@ section img {
 h1, h2, h3, h4, h5, h6 {
  // font-weight: normal;
  // font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  font-family: monospace;
+  font-family: $header-font-family;
   color: $header-color;
   //letter-spacing: -0.03em;
  // text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
@@ -111,6 +111,7 @@ blockquote {
 pre {
   //background: rgba(0, 0, 0, 0.9);
   background: $pre-background;
+  font-family: $pre-font-family;
   //border: 1px solid rgba(255, 255, 255, 0.15);
   padding: 20px;
   font-size: 16px;
