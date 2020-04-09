@@ -2,7 +2,7 @@
 ---
 $container-max-width: 1000px;
 $body-background: #fff;
-$body-foreground: #777;
+$body-foreground: #111;
 //$body-font-family: 'Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace';
 //$body-font-family: '"Times New Roman", Times, "Alternate System Font", serif';
 $body-font-family: 'Cambria, Garamond, serif';
@@ -25,8 +25,8 @@ body {
   background-color: $body-background;
   color: $body-foreground;
   font-family: $body-font-family;
-  font-size: 18px;
-  line-height: 1.5;
+  font-size: 16px;
+  line-height: 1.2;
 }
 
 .container {
