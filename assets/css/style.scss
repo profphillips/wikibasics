@@ -4,7 +4,7 @@ $container-max-width: 1000px;
 $body-background: #ffffff;
 $body-foreground: #111111;
 $body-font-family: 'Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace';
-$header-color: #3399aa;
+$header-color: #339933;
 $pre-background: #f0f0f0;
 $pre-foreground: #333333;
 $link-color: #60c0f0;
@@ -44,9 +44,9 @@ h1, h2, h3, h4, h5, h6 {
 //  -webkit-font-smoothing: antialiased;
 //}
 
-//section img {
-//  max-width: 100%
-//}
+section img {
+  max-width: 100%
+}
 
 h1, h2, h3, h4, h5, h6 {
  // font-weight: normal;
