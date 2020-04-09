@@ -7,6 +7,7 @@ $container-max-width: 1000px;
 $header-color: #3399aa;
 $pre-background: #f3eef3;
 $pre-foreground: #003300;
+$link-color: #00ff00;
 
 
 body {
@@ -150,7 +151,8 @@ hr {
 
 
 a {
-  color: #63c0f5;
+  color: $link-color;
+ // color: #63c0f5;
   //text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
 /*
