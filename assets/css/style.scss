@@ -4,6 +4,7 @@ $body-background: #ffcccc;
 $body-foreground: #333366;
 $body-font-family: 'Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace';
 $container-max-width: 1000px;
+$header-color: #33ff33;
 
 
 body {
@@ -47,7 +48,7 @@ section img {
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  //color: $header;
+  color: $header-color;
   letter-spacing: -0.03em;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
@@ -97,7 +98,7 @@ blockquote {
   padding-left: 10px;
  // border-left: 1px dotted $blockquote-border;
 }
-
+*/
 pre {
   background: rgba(0, 0, 0, 0.9);
   border: 1px solid rgba(255, 255, 255, 0.15);
@@ -109,7 +110,7 @@ pre {
   overflow: auto;
   overflow-y: hidden;
 }
-*/
+
 code.highlighter-rouge {
   background: rgba(0,0,0,0.9);
   border: 1px solid rgba(255, 255, 255, 0.15);
