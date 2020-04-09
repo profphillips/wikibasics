@@ -51,8 +51,10 @@ Syntax highlighted code block
 
 1. Numbered
 
-i. indented
-i. second indented
+ i. indented
+
+ i. second indented
+
 1. List
 
 **Bold** and _Italic_ and `Code` text
