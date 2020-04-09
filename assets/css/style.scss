@@ -1,9 +1,9 @@
 $container-max-width: 1000px;
-/*
+
 body {
   margin: 0;
   padding: 0;
-  //background-color: #eeeeee; //$body-background;
+  background-color: #eeeeff; //$body-background;
   //background: $body-background url("../images/bkg.png") 0 0;
   //color: $body-foreground;
   font-size: 16px;
@@ -11,7 +11,7 @@ body {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
-/* General & 'Reset' Stuff */
+// General & 'Reset' Stuff 
 
 .container {
   width: 90%;
@@ -46,11 +46,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   //color: $header;
   letter-spacing: -0.03em;
- /* text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
-               0 0 10px rgba(181, 232, 83, 0.1);*/
+               0 0 10px rgba(181, 232, 83, 0.1);
 }
-
+/*
 #main_content h1 {
   font-size: 30px;
 }
@@ -138,16 +138,16 @@ hr {
   color: #b5e853;
 }
 
-/* Links
-   a, a:hover, a:visited
-*/
+// Links
+//   a, a:hover, a:visited
+
 
 a {
   color: #63c0f5;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
 
-/* Clearfix */
+// Clearfix 
 
 .cf:before, .cf:after {
   content:"";
