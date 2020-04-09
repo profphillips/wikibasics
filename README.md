@@ -50,8 +50,8 @@ Syntax highlighted code block
     - indented
 
 1. Numbered
-    i. indented
-    ii. second indented
+    a. indented
+    b. second indented
 2. List
 
 **Bold** and _Italic_ and `Code` text
