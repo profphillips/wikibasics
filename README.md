@@ -49,10 +49,10 @@ Syntax highlighted code block
 - List
     - indented
 
-1. Numbered
-    a. indented
-    b. second indented
-2. List
+1. Numbered  
+    a. indented  
+    b. second indented  
+2. List  
 
 **Bold** and _Italic_ and `Code` text
 
