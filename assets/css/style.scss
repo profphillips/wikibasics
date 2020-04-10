@@ -28,21 +28,22 @@ $link-color: $hippie-blue !default; //#3090f0;
 
 @mixin theme-colors($light-theme: true) {
   @if $light-theme {
+*/
     $color: #036;
     $background-color: #f2ece4;
     $pre-color: #036t;
     $pre-background-color: #cccccc;
     $blockquote-color: #036;
     $blockquote-background-color: #cccccc;
-  } @else {
-*/
+/*  } @else {
+
     $color: $gallery;
     $background-color: $cod-grey;
     $pre-color: $conifer;
     $pre-background-color: #222;
     $blockquote-color: orange;
     $blockquote-background-color: #333;
-
+*/
 $link-color: $hippie-blue !default; //#3090f0;
 
 $container-max-width: 1000px;
