@@ -15,7 +15,7 @@ $potters-clay: #8f5536;
 $rajah: #f4bf75;
 $raw-sienna: #d28445;
 $silver-chalice: #aaa;
-
+/*
 $light-theme: false;
 
 $color: #036 !default;
@@ -35,14 +35,13 @@ $link-color: $hippie-blue !default; //#3090f0;
     $blockquote-color: #036;
     $blockquote-background-color: #cccccc;
   } @else {
+*/
     $color: $gallery;
     $background-color: $cod-grey;
     $pre-color: $conifer;
     $pre-background-color: #333;
     $blockquote-color: orange;
     $blockquote-background-color: #333;
-  }
-}
 
 $container-max-width: 1000px;
 
@@ -53,7 +52,7 @@ $pre-font-family: 'Consolas, Terminal, monospace';
 $blockquote-font-family: 'Cursive';
 
 body {
-  @include theme-colors(false);
+ // @include theme-colors(false);
   color: $color;
   background-color: $background-color;
   margin: 0;
