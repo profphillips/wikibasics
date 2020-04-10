@@ -38,7 +38,7 @@ $pre-color: $silver-chalice !default;
   } @else {
     background-color: $cod-grey;
     color: $gallery;
-    $pre-background: $grey;
+    $pre-background: #333;
     $pre-color: $silver-chalice;  }
 }
 
