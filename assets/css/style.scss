@@ -34,8 +34,8 @@ $dark-text: $body-foreground;
     $pre-background: #eee;
     color: $light-text;
   } @else {
-    background-color: $dark-background;
-    color: $dark-text;
+    background-color: $cod-grey;
+    color: $gallery;
     $pre-background: $grey;
     $pre-color: $silver-chalice  }
 }
