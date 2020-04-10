@@ -9,18 +9,18 @@ $body-font-family: 'Cambria, Garamond, serif';
 //$body-font-family: '"Palatino Linotype", "Book Antiqua", Palatino, serif';
 
 $header-color: #009900;
-$header-font-family: '"Arial Black", Gadget, sans-serif';
+$header-font-family: 'Roboto, Verdana, "Arial Black", Gadget, sans-serif';
 
 $pre-background: #eee;
 $pre-foreground: #000;
-$pre-font-family: 'Terminal, monospace';
+$pre-font-family: 'Consolas, Terminal, monospace';
 
 $link-color: #3090f0;
 
 $blockquote-color: #0f0;
 $blockquote-background: #eee;
 $blockquote-foreground: #000;
-$blockquote-font-family: 'Terminal, monospace';
+$blockquote-font-family: 'Comic Sans MS, cursive';
 
 body {
   margin: 0;
@@ -74,7 +74,7 @@ dt {
 
 blockquote {
   color: $blockquote-foreground;
-  background: $blockquote-background;
+  //background: $blockquote-background;
   padding-left: 10px;
   border-left: 1px dotted;
 }
