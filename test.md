@@ -1,7 +1,3 @@
----
-mathjax: true
----
-
 An h1 header
 ============
 
