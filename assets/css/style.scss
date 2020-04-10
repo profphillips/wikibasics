@@ -18,32 +18,25 @@ $dark-text: #d2e1dd;
 
 
 $container-max-width: 1000px;
-$body-background: #fff;
-$body-foreground: #111;
+
 //$body-font-family: 'Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace';
 //$body-font-family: '"Times New Roman", Times, "Alternate System Font", serif';
 $body-font-family: 'Cambria, Garamond, serif';
 //$body-font-family: '"Palatino Linotype", "Book Antiqua", Palatino, serif';
 
-$header-color: #009900;
 $header-font-family: 'Roboto, Verdana, "Arial Black", Gadget, sans-serif';
 
 $pre-background: #eee;
-$pre-foreground: #000;
 $pre-font-family: 'Consolas, Terminal, monospace';
 
 $link-color: #3090f0;
 
-$blockquote-color: #0f0;
 $blockquote-background: #eee;
-$blockquote-foreground: #000;
 $blockquote-font-family: 'Cursive';
 
 body {
   margin: 0;
   padding: 0;
-  background-color: $body-background;
-  color: $body-foreground;
   font-family: $body-font-family;
   font-size: 18px;
   line-height: 1.4;
@@ -63,7 +56,6 @@ section {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 20px;
-  color: $header-color;
   font-family: $header-font-family;
   line-height: 1.1;
   @include theme-colors($light-theme);
@@ -92,8 +84,6 @@ dt {
 }
 
 blockquote {
-  color: $blockquote-foreground;
-  //background: $blockquote-background;
   font-family: $blockquote-font-family;
   padding-left: 10px;
   border-left: 1px dotted;
@@ -103,11 +93,11 @@ pre {
   //background: rgba(0, 0, 0, 0.9);
   background: $pre-background;
   font-family: $pre-font-family;
-  //border: 1px solid rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   padding: 20px;
   font-size: 16px;
   color: $pre-foreground; //#b5e853;
- // border-radius: 2px;
+  border-radius: 2px;
   word-wrap: normal;
   overflow: auto;
   overflow-y: hidden;
