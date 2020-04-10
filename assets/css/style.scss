@@ -13,7 +13,11 @@ $dark-text: #d2e1dd;
     background-color: $dark-background;
     color: $dark-text;
   }
-}$container-max-width: 1000px;
+}
+
+@include theme-colors($light-theme: false);
+
+$container-max-width: 1000px;
 $body-background: #fff;
 $body-foreground: #111;
 //$body-font-family: 'Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace';
@@ -43,6 +47,7 @@ body {
   font-family: $body-font-family;
   font-size: 18px;
   line-height: 1.4;
+  @include theme-colors($light-theme: false);
 }
 
 .container {
@@ -61,6 +66,7 @@ h1, h2, h3, h4, h5, h6 {
   color: $header-color;
   font-family: $header-font-family;
   line-height: 1.1;
+  @include theme-colors($light-theme: false);
 }
 
 h1 {
