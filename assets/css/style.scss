@@ -18,6 +18,9 @@ $pre-font-family: 'Terminal, monospace';
 $link-color: #3090f0;
 
 $blockquote-color: #0f0;
+$blockquote-background: #eee;
+$blockquote-foreground: #000;
+$blockquote-font-family: 'Terminal, monospace';
 
 body {
   margin: 0;
@@ -69,14 +72,11 @@ dt {
   font-weight: bold;
 }
 
-ul li {
-  // list-style-image:url('../images/bullet.png');
-}
-
 blockquote {
-  color: $blockquote-color;
+  color: $blockquote-foreground;
+  background: $blockquote-background;
   padding-left: 10px;
- // border-left: 1px dotted $blockquote-border;
+  border-left: 1px dotted;
 }
 
 pre {
