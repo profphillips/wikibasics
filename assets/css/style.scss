@@ -47,11 +47,11 @@ $link-color: $hippie-blue !default; //#3090f0;
 
 $container-max-width: 1000px;
 
-$body-font-family: 'Cambria, Garamond, serif';
-//$body-font-family: '"Palatino Linotype", "Book Antiqua", Palatino, serif';
+//$body-font-family: 'Cambria, Garamond, serif';
+$body-font-family: '"Palatino Linotype", "Book Antiqua", Palatino, serif';
 $header-font-family: 'Roboto, Arial, sans-serif';
 $pre-font-family: 'Consolas, Terminal, monospace';
-$blockquote-font-family: 'Cursive';
+$blockquote-font-family: $body-font-family; //'Cursive';
 
 body {
  // @include theme-colors(false);
