@@ -64,7 +64,7 @@ body {
 }
 
 .container {
-  width: 80%;
+  width: 90%;
   max-width: $container-max-width;
   margin: 0 auto;
 }
@@ -78,7 +78,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 20px;
   font-family: $header-font-family;
   line-height: 1.1;
- // @include theme-colors($light-theme);
 }
 
 h1 {
@@ -108,7 +107,7 @@ blockquote {
   // background: $blockquote-background-color;
   font-family: $blockquote-font-family;
   padding-left: 10px;
-  border-left: 1px dotted;
+  border-left: 1px solid;
 }
 
 pre {
@@ -153,8 +152,8 @@ td {
 hr {
   height: 0;
   border: 0;
-  border-bottom: 1px dashed #b5e853;
-  color: #b5e853;
+  border-bottom: 1px solid;
+ // color: #b5e853;
 }
 
 // Links
