@@ -15,36 +15,23 @@ $potters-clay: #8f5536;
 $rajah: #f4bf75;
 $raw-sienna: #d28445;
 $silver-chalice: #aaa;
-/*
-$light-theme: false;
 
-$color: #036 !default;
-$background-color: #f2ece4 !default;
-$pre-color: #036 !default;
-$pre-background-color: #cccccc !default;
-$blockquote-color: #036 !default;
-$blockquote-background-color: #cccccc !default;
-$link-color: $hippie-blue !default; //#3090f0;
-
-@mixin theme-colors($light-theme: true) {
-  @if $light-theme {
-*/
     $color: #036;
     $background-color: #f2ece4;
     $pre-color: #036;
     $pre-background-color: #eee;
     $blockquote-color: #036;
     $blockquote-background-color: #eee;
-/*  } @else {
-
+    $link-color: $hippie-blue; //#3090f0;
+/*
     $color: $gallery;
     $background-color: $cod-grey;
     $pre-color: $conifer;
     $pre-background-color: #222;
     $blockquote-color: orange;
     $blockquote-background-color: #333;
+    $link-color: $hippie-blue !default; //#3090f0;
 */
-$link-color: $hippie-blue !default; //#3090f0;
 
 $container-max-width: 1000px;
 
