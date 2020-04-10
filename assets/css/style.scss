@@ -19,7 +19,7 @@ $silver-chalice: #aaa;
 $body-background: $cod-grey !default;
 $body-foreground: $gallery !default;
 $header: $conifer !default;
-$blockquote-color: $silver-chalice !default;
+$blockquote-color: $conifer !default;
 $blockquote-border: $dove-grey !default;
 
 $light-theme: false;
@@ -28,7 +28,7 @@ $light-text: #036;
 $dark-background: $body-background;
 $dark-text: $body-foreground;
 $pre-background: #333 !default;
-$pre-color: $silver-chalice !default;
+$pre-color: $conifer !default;
 
 @mixin theme-colors($light-theme: true) {
   @if $light-theme {
