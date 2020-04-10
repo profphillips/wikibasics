@@ -53,6 +53,7 @@ $pre-font-family: 'Consolas, Terminal, monospace';
 $blockquote-font-family: 'Cursive';
 
 body {
+  @include theme-colors($light-theme);
   color: $color;
   background-color: $background-color;
   margin: 0;
@@ -60,7 +61,6 @@ body {
   font-family: $body-font-family;
   font-size: 18px;
   line-height: 1.4;
-  @include theme-colors($light-theme);
 }
 
 .container {
