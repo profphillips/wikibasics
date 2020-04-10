@@ -27,6 +27,8 @@ $light-background: #f2ece4;
 $light-text: #036;
 $dark-background: $body-background;
 $dark-text: $body-foreground;
+$pre-background: $grey !default;
+$pre-color: $silver-chalice !default;
 
 @mixin theme-colors($light-theme: true) {
   @if $light-theme {
@@ -37,7 +39,7 @@ $dark-text: $body-foreground;
     background-color: $cod-grey;
     color: $gallery;
     $pre-background: $grey;
-    $pre-color: $silver-chalice  }
+    $pre-color: $silver-chalice;  }
 }
 
 
