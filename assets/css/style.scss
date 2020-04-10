@@ -22,6 +22,7 @@ $header: $conifer !default;
 $blockquote-color: $silver-chalice !default;
 $blockquote-border: $dove-grey !default;
 
+
 $light-theme: false;
 $light-background: #f2ece4;
 $light-text: #036;
@@ -31,10 +32,12 @@ $dark-text: $body-foreground;
 @mixin theme-colors($light-theme: true) {
   @if $light-theme {
     background-color: $light-background;
+    $pre-background: #eee;
     color: $light-text;
   } @else {
     background-color: $dark-background;
     color: $dark-text;
+    $pre-background: $grey;
   }
 }
 
@@ -48,7 +51,7 @@ $body-font-family: 'Cambria, Garamond, serif';
 
 $header-font-family: 'Roboto, Verdana, "Arial Black", Gadget, sans-serif';
 
-$pre-background: #eee;
+
 $pre-font-family: 'Consolas, Terminal, monospace';
 
 $link-color: #3090f0;
