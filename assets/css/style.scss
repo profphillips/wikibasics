@@ -103,15 +103,16 @@ dt {
 }
 
 blockquote {
-  font-family: $blockquote-font-family;
   color: $blockquote-color;
+  background: $blockquote-background-color;
+  font-family: $blockquote-font-family;
   padding-left: 10px;
   border-left: 1px dotted;
 }
 
 pre {
   //background: rgba(0, 0, 0, 0.9);
-  background: $pre-background;
+  background: $pre-background-color;
   color: $pre-color;
   font-family: $pre-font-family;
   border: 1px solid rgba(255, 255, 255, 0.15);
