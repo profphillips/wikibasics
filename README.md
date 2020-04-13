@@ -8,7 +8,7 @@ layout: default
 
 [Markdown Guide](https://guides.github.com/features/mastering-markdown/)
 
-## Welcome to GitHub Pages
+# Welcome to My GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/profphillips/wikibasics/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
