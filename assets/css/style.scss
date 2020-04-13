@@ -28,7 +28,7 @@ $silver-chalice: #aaa;
     $color: orange; //$gallery;
     $background-color: $cod-grey;
     $pre-color: orange; //$conifer;
-    $pre-background-color: #003; //$cod-grey;
+    $pre-background-color: #252525; //$cod-grey;
     $blockquote-color: orange;
     $blockquote-background-color: $cod-grey;
     $link-color: $hippie-blue !default; //#3090f0;
@@ -37,7 +37,8 @@ $silver-chalice: #aaa;
 $container-max-width: 1000px;
 
 //$body-font-family: 'Cambria, Garamond, serif';
-$body-font-family: '"Palatino Linotype", "Book Antiqua", Palatino, serif';
+//$body-font-family: '"Palatino Linotype", "Book Antiqua", Palatino, serif';
+$body-font-family: 'serif';
 $header-font-family: 'Roboto, Arial, sans-serif';
 $pre-font-family: 'Consolas, Terminal, monospace';
 $blockquote-font-family: $body-font-family; //'Cursive';
