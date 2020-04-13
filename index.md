@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # Web Page Topic
 
 ## Key Links
