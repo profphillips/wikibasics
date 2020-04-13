@@ -31,7 +31,7 @@ $silver-chalice: #aaa;
 // Dark color scheme
     $color: $gallery;
     $background-color: $cod-grey;
-    $pre-color: #aa759f; //$gallery; //$conifer;
+    $pre-color: $conifer; //#aa759f; //$gallery; //$conifer;
     $pre-background-color: $cod-grey;
     $blockquote-color: #aa759f; //$gallery;
     $blockquote-background-color: $cod-grey;
@@ -108,7 +108,7 @@ blockquote {
 }
 
 pre {
-  //background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.9);
   color: $pre-color;
   background: $pre-background-color;
   font-family: $pre-font-family;
@@ -118,7 +118,7 @@ pre {
   border-radius: 6px;
   word-wrap: normal;
   overflow: auto;
-  overflow-y: hidden;
+  overflow-y: auto; //hidden;
 }
 
 code.highlighter-rouge {
