@@ -58,6 +58,12 @@ body {
   width: 90%;
   max-width: 1000px;
   margin: 0 auto;
+  color: $color;
+  background-color: $background-color;
+  padding: 0;
+ // font-family: $body-font-family;
+  font-size: 16px;
+  line-height: 1.4;
 }
 
 /*
