@@ -51,7 +51,7 @@ $pre-font-family: 'Consolas, Terminal, monospace';
 $blockquote-font-family: 'Raleway, monospace'; //'Cursive';
 
 html {
-  font-size: 16px;
+  font-size: 10px;
   margin: 0;
   //font-family: sans-serif;
 }
@@ -64,8 +64,8 @@ body {
   background-color: $background-color;
   padding: 0;
   font-family: $body-font-family;
-  font-size: 16px;
-  line-height: 1.4;
+  font-size: 1.8rem;
+  line-height: 1.6;
 }
 
 /*
