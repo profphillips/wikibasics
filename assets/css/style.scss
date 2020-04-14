@@ -51,24 +51,24 @@ $header-font-family: '"Lobster", "monospace"';
 $pre-font-family: '"Consolas", "Cursive"'; //monospace';
 $blockquote-font-family: '"Raleway", "monospace"'; //'Cursive';
 */
-
+/*
 html {
   font-size: 10px;
   margin: 0;
   font-family: sans-serif;
 }
-
+*/
 body {
   width: 90%;
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 0;
   color: $color;
   background-color: $background-color;
   padding: 0;
   //font-family: $body-font-family;
   font-family: "Crimson Text";
   //font-size: 18px;
-  font-size: 1.8rem;
+  font-size: 18px;
   line-height: 1.8;
 }
 
