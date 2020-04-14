@@ -172,9 +172,9 @@ which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
 <p>\[ \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right) \]</p>
 
 <p>A Cross Product Formula</p>
-<pre>
+
 <p>\[\mathbf{V}_1 \times \mathbf{V}_2 = \begin{vmatrix} \mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \\ \frac{\partial X}{\partial u} &amp; \frac{\partial Y}{\partial u} &amp; 0 \\ \frac{\partial X}{\partial v} &amp; \frac{\partial Y}{\partial v} &amp; 0 \end{vmatrix} \]</p>
-</pre>
+
 <p>The probability of getting</p>
 <p>\(k\) heads when flipping \(n\) coins is \[P(E) = {n \choose k} p^k (1-p)^{ n-k} \]</p>
 
