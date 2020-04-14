@@ -41,12 +41,14 @@ $silver-chalice: #aaa;
 $container-max-width: 1000px;
 
 //$body-font-family: 'Cambria, Garamond, serif';
-$body-font-family: '"Palatino Linotype", "Book Antiqua", Palatino, serif';
+//$body-font-family: '"Palatino Linotype", "Book Antiqua", Palatino, serif';
+$body-font-family: 'Crimson Text', monospace;'
 //$body-font-family: 'serif';
 $header-font-family: 'Roboto, Arial, sans-serif';
+$header-font-family: 'Lobster, monospace';
 //$header-font-family: 'sans-serif';
 $pre-font-family: 'Consolas, Terminal, monospace';
-$blockquote-font-family: $body-font-family; //'Cursive';
+$blockquote-font-family: 'Raleway, monospace'; //'Cursive';
 
 html {
   font-size: 16px;
@@ -79,8 +81,6 @@ body {
 }
 */
 
-
-
 .container {
   width: 90%;
   max-width: $container-max-width;
@@ -98,12 +98,8 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
 }
 
-h1, h2 {
- font-family: 'Lobster', cursive;
-}
-
 h1 {
-    margin: 25px 0 20px;
+  margin: 25px 0 20px;
   font-size: 4rem;
 }
 
@@ -111,13 +107,12 @@ h2 {
   font-size: 3rem;
 }
 
-p {
-  //font-size: 1.4rem;
-  line-height: 1.6;
-  //word-spacing: 0.6rem;
-  //letter-spacing: 0.1rem;
-  //font-family: 'Raleway', sans-serif;
-    font-family: 'Crimson Text', sans-serif;
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
 }
 
 li {
