@@ -65,6 +65,12 @@ for i in range(10):
     print(i)
 ~~~
 
+Testing some numbers in and out of a code block:
+0123456789
+
+~~~
+0123456789
+~~~
 
 
 ### An h3 header ###
