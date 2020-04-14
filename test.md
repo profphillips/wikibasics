@@ -157,10 +157,10 @@ Inline math equation: $\omega = d\phi / dt$. Display
 math should get its own line like so:
 
 $$I = \int \rho R^{2} dV$$
-<div style="font-size: 200%;">
+
 <p>
   When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
-  \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
+<div class="math"> \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\] </div>
 </p>
 </div>
 And note that you can backslash-escape any punctuation characters
@@ -170,16 +170,17 @@ which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
 <p class="math">\[\begin{aligned} \dot{x} &amp; = \sigma(y-x) \\ \dot{y} &amp; = \rho x - y - xz \\ \dot{z} &amp; = -\beta z + xy \end{aligned} \]</p>
 
 <p>The Cauchy-Schwarz Inequality</p>
-<p>\[ \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right) \]</p>
+<p class="math">\[ \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right) \]</p>
 
 <p>A Cross Product Formula</p>
 
 <p class="math">\[\mathbf{V}_1 \times \mathbf{V}_2 = \begin{vmatrix} \mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \\ \frac{\partial X}{\partial u} &amp; \frac{\partial Y}{\partial u} &amp; 0 \\ \frac{\partial X}{\partial v} &amp; \frac{\partial Y}{\partial v} &amp; 0 \end{vmatrix} \]</p>
 
 <p>The probability of getting</p>
-<p>\(k\) heads when flipping \(n\) coins is \[P(E) = {n \choose k} p^k (1-p)^{ n-k} \]</p>
+<p>\(k\) heads when flipping \(n\) coins is 
+<p class="math">\[P(E) = {n \choose k} p^k (1-p)^{ n-k} \]</p>
 
-<p>An Identity of Ramanujan</p>
+<p class="math">An Identity of Ramanujan</p>
 <p>\[ \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} = 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}} {1+\frac{e^{-8\pi}} {1+\ldots} } } } \]</p>
 
 <p>A Rogers-Ramanujan Identity</p>
